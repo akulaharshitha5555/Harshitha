@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test Portal - Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Register for Online Test Portal</h1>
+    <form id="registration-form">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="collegeName">College Name</label>
+      <input type="text" id="collegeName" name="collegeName" required />
+
+      <label for="collegeId">College ID Number</label>
+      <input type="text" id="collegeId" name="collegeId" required />
+
+      <label for="profilePic">Upload Profile Picture (50KB - 250KB)</label>
+      <input type="file" id="profilePic" name="profilePic" accept="image/*" required />
+
+      <label for="idCard">Upload College ID Card (100KB - 500KB)</label>
+      <input type="file" id="idCard" name="idCard" accept="image/*" required />
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
